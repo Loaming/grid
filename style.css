@@ -130,6 +130,16 @@ body {
       border-radius: 99px;
       transform: rotate(-45deg);
   }
+  .pres-h1 {
+      padding-bottom: 16px;
+      text-shadow: 0px 4px 0px #FFFFFF; 
+      position: relative;
+  }
+  .pres-span {
+    color:#c53636; 
+    position: relative; 
+    z-index: 999;
+  }
   .dots {
       position: absolute;
       right: 0px;
@@ -173,8 +183,11 @@ body {
       font-size: 18px;
       line-height: 24px;
       font-weight: bold;
-
       color: #fff;
+  }
+  .img-text-1-span {
+      font-size: 14px; 
+      color: rgb(255, 255, 255, 0.6); 
   }
   .learn {
       font-size: 32px;
@@ -231,6 +244,25 @@ body {
       display: flex;
       flex-direction: row;
   }
+  .pic-3 {
+      background-image: url(/pics/3.png);
+      width: 270px; 
+      height: 284px; 
+      background-size: cover; 
+      margin-right: 30px;
+  }
+  .pic-6 {
+      background-image: url(/pics/6.png);
+      width: 370px; 
+      height: 356px; 
+      background-size: cover;
+  }
+  .pic-7 {
+      background-image: url(/pics/7.png);
+      background-size: cover;
+      width: 170px; 
+      height: 222px;
+  }
 
   /* PRODUCT-MOBILE */
   .product-mobile {
@@ -245,6 +277,34 @@ body {
       flex-direction: column;
       align-items: center;
       padding-top: 48px;
+  }
+  .pres-mobile-text:nth-child(1) {
+      font-size: 64px; 
+      font-weight: 900; 
+      color:#2D3436; 
+      text-shadow: 0px 4px 0px #FFFFFF; 
+      padding-bottom: 8px;
+  }
+  .pres-mobile-text:nth-child(2) {
+      font-size: 46px; 
+      color: #2D3436; 
+      font-weight: 700; 
+      text-shadow: 0px 4px 0px #FFFFFF; 
+      padding-bottom: 16px; 
+      position: relative;
+  }
+  .pres-mobile-text-span {
+      color:#D63031; 
+      position: relative; 
+      z-index: 999;
+  }
+  .pres-mobile-text:nth-child(3) {
+     font-size: 24px; 
+     color: #2D3436; 
+     font-weight: 700; 
+     padding-bottom: 8px; 
+     letter-spacing: 0.25px; 
+     line-height: 36px;
   }
   .wave {
       position: absolute;
@@ -455,6 +515,19 @@ body {
       flex-direction: column;
       text-align: center;
   }
+  .price-text-h2 {
+      padding-bottom: 34px;
+  }
+  .price-text-h3 {
+     color: #ADADAD; 
+     padding-bottom: 40px; 
+     position: relative;
+  }
+  .price-text-h3-span {
+    color: #6C5CE7; 
+    position: relative; 
+    z-index: 999;
+  }
   .shape-price {
       position: absolute;
       top: 30px;
@@ -472,6 +545,16 @@ body {
       margin-right: 30px;
       background: #fff;
       z-index: 999;
+  }
+  .price-block-rate {
+      color: #6C5CE7; 
+      padding-bottom: 16px; 
+      font-weight: 700; 
+      letter-spacing: 0.2px;
+  }
+  .price-block:nth-child(2) {
+    box-shadow: 5px 5px 6px -4px rgba(0, 0, 0, 0.2), -5px 5px 6px -4px rgba(0, 0, 0, 0.2); 
+    border-radius: 16px;
   }
   .price-block:last-child {
       margin-right: 0px;
@@ -523,6 +606,20 @@ body {
       width: -webkit-fill-available;
       margin-top: auto;
   }
+  .price-btn-center {
+    align-self: flex-end;
+    font-weight: 700; 
+    font-size: 24px; 
+    letter-spacing: 0.25px;
+    line-height: 32px;
+    padding: 8px 16px 8px 16px;
+    background-color: #6C5CE7; 
+    color: #fff; 
+    border: 1px solid #ADADAD;
+    border-radius: 16px;
+    width: -webkit-fill-available;
+    margin-top: auto;
+  }
   .wiggle {
       position: absolute;
       top: 388px;
@@ -554,7 +651,16 @@ body {
       text-transform: uppercase;
       font-weight: 800;
       letter-spacing: 2.5px;
-      color: #ADADAD;;
+      color: #ADADAD;
+  }
+  .follow .footer-title {
+      padding-bottom: 8px;
+  }
+  .follow-inf .footer-title {
+      padding-bottom: 16px;
+  }
+  .send-inf .footer-title {
+      padding-bottom: 16px;
   }
   .follow-link {
       display: flex;
@@ -606,6 +712,12 @@ body {
   .send-inf {
       display: flex;
       flex-direction: column;
+  }
+  .footer-wave {
+      background-image: url(/pics/Wave.png);
+      width: 100%; 
+      background-size: cover; 
+      position: relative
   }
   .name-email {
       display: flex;
@@ -753,6 +865,12 @@ body {
           border: 1px solid #858585;
           border-radius: 99px;
       }
+      .deliver-text-h3 {
+        padding-bottom: 8px; 
+        line-height: 36px; 
+        letter-spacing: 0.25px;
+      }
+      
       .pic-price {
           position: absolute;
           left: 198px;
@@ -790,6 +908,13 @@ body {
         bottom: 0;
         left: 20px;
       }
+      .price-block {
+        box-shadow: 5px 5px 6px -4px rgba(0, 0, 0, 0.2), -5px 5px 6px -4px rgba(0, 0, 0, 0.2); 
+        border-radius: 16px;
+      }
+      .price-block:nth-child(3) {
+        background: #6C5CE7;
+      }
       .price-circle {
           display: flex;
           padding: 4px;
@@ -816,12 +941,36 @@ body {
           color: #6C5CE7;
           line-height: 36px;
       }
+      .price-block:nth-child(3) .price-row-text {
+        color: #fff; 
+        text-shadow: 0px 4px 0px #000000;
+      }
       .price-btn {
           font-weight: 700;
           letter-spacing: 0.2px;
       }
+      .price-block:nth-child(3) .price-btn {
+        background-color: #FFFFFF; 
+        color: #2D3436;
+      }
       .price-block:last-child .price-row-subtitle {
           color: #fff;
+      }
+      .price-text-1 {
+          padding-bottom: 8px; 
+          font-size: 32px; 
+          font-weight: 700;
+      }
+      .price-text-2 {
+          position: relative; 
+          color: #ADADAD; 
+          padding-bottom: 40px; 
+          font-weight: 400;
+      }
+      .price-text-2-span {
+          color: #2D3436; 
+          position: relative; 
+          z-index: 999;
       }
       .logo {
           font-size: 24px;
@@ -894,6 +1043,25 @@ body {
           flex-direction: column;
           text-align: center;
           padding-bottom: 34px;
+      }
+      .copyright p:nth-child(1) {
+          font-size: 14px; 
+          line-height: 24px; 
+          color: #2D3436; 
+          letter-spacing: 0.2px;
+      }
+      .copyright p:nth-child(2) {
+          font-size: 12px; 
+          line-height: 22px; 
+          color: #00B894; 
+          letter-spacing: 0.3px;
+      }
+      .copyright p:nth-child(3) {
+          font-size: 18px; 
+          line-height: 32px; 
+          color: #6C5CE7; 
+          letter-spacing: 0.2px; 
+          font-weight: 700; 
       }
       .links {
           display: flex;
